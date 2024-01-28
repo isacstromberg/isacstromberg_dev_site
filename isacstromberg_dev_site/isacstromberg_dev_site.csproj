@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\Pictures\photo-1517694712202-14dd9538aa97.avif" />
+    <Content Remove="wwwroot\Pictures\photo-1517694712202-14dd9538aa97.png" />
+  </ItemGroup>
+
 </Project>
