@@ -10,7 +10,7 @@ html {
     font-size: 16px;
   }
 }
-
+/* Essential to make sure that the homepage scales well!*/
 @media (max-width: 770px) {
     #about{
       flex-direction:column;
@@ -64,10 +64,10 @@ body {
   
 }
 
-.nav-contact{
-  background : green;
-  border-radius : 10px;
-  
+.nav-contact {
+    background: green;
+    border-radius: 10px;
+    background-color: #4CAF50
 }
 
 @media (max-width: 575px) {
