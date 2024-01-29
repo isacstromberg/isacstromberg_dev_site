@@ -65,15 +65,19 @@ body {
 }
 
 .nav-contact {
-    background: green;
+ 
     border-radius: 10px;
-    background-color: #4CAF50
+    background-color: #4CAF50; 
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
 }
 
 @media (max-width: 575px) {
     .nav-contact {
         background-color: transparent; /* Återställ bakgrundsfärgen till transparent på mindre skärmar (hamburger meny) */
-  
+        font-size: 14px;
+        width:0px;
     }
 }
 
