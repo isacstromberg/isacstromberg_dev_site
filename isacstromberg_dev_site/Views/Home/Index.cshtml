@@ -3,59 +3,75 @@
 }
 
 <div class="text-center" style="background-color:cornflowerblue; border-radius: 20px; padding:10px;">
-    <h1 class="display-4" style="color:white;">Välkommen till Strömberg Studios!</h1>
-    <p style="color: white;">En webbyrå som levererar helhetslösningar inom webb och AI-genererade bilder</p>
+    <h1 class="display-4" style="color:white;">Strömberg Studios</h1>
+    <p style="color: white;">Innovation, pålitlighet och samarbete</p>
 </div>
 <br />
+
+<section id="hero" class="d-flex align-items-center">
+
+
+    <video autoplay loop muted playsinline>
+        <source src="\Videos\production_id_4828605 (2160p).mp4" type="video/mp4">
+       
+    </video>
+    <div class="text-overlay">
+        <h1>Välkommen till Strömberg Studios</h1>
+        <p>Vi levererar skräddarsydda IT-lösningar för din verksamhet inom webb.</p>
+    </div>
+</section>
+
+<br />
+
 <h2 style="color: white; text-align:center">Om mig</h2>
 
-<section id="about" style="display: flex;">
+<div id="about" style="display: flex; background-color: cornflowerblue; border-radius: 12px; align-items:center;">
+
+    <img src="\Pictures\pro-AxXBwQzY-2004.jpg" alt="Bild på mig" style=" object-fit:contain; border-radius: 12px; height: 100%; max-height: 300px; margin-right: 20px; flex-shrink: 0;" />
     
-
-    <img src="\Pictures\pro-AxXBwQzY-2004.jpg" alt="Bild på mig" width="300" height="200" style="display: inline-block; margin-right: 10px; object-fit:contain;" />
-
-    <p style="display: inline-block; font-size: 14px; border-radius: 20px;  padding: 10px; background-color :cornflowerblue;">
-        Hej, mitt namn är Isac Strömberg, och jag är stolt ägare av denna webbyrå med fokus på webbutveckling. 
-        Med en kandidatexamen inom informatik kombinerar jag min passion för kreativ problemlösning med teknisk kompetens för att skapa skräddarsydda webblösningar. 
-        Varje projekt betraktas som unikt, och jag strävar efter att leverera användarvänliga och visuellt tilltalande webbplatser. 
+    <p id="about-p" style="font-size: 14px; margin-right: 20px; flex-grow: 1;">
+        Hej, mitt namn är Isac Strömberg, och jag är stolt ägare av denna webbyrå med fokus på webbutveckling.
+        Med en kandidatexamen inom informatik kombinerar jag min passion för kreativ problemlösning med teknisk kompetens för att skapa skräddarsydda webblösningar.
+        Varje projekt betraktas som unikt, och jag strävar efter att leverera användarvänliga och visuellt tilltalande webbplatser.
         Kontakta mig gärna för att diskutera hur vi kan förverkliga visionen för din webbplats.
-        
     </p>
+</div>
+<br />
 
 
 
-     
-
-</section>
-    
-    
 
 
 
-   
-   
 
 
- 
 
-    <br />
+
+
+
+
+
+
+
+
+<br />
 <h2 style="color: white; text-align: center;">Vad jag erbjuder</h2>
 
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <br />
-            <img src="\Pictures\photo-1517694712202-14dd9538aa97.jpg" alt="Webbutveckling" class="d-block w-100">
+            <a asp-controller="Services" asp-action="Index"><img src="\Pictures\photo-1517694712202-14dd9538aa97.jpg" alt="Webbutveckling" class="d-block w-100"></a>
                 <p style="text-align:center;">Informationssida</p>
         </div>
         <div class="carousel-item">
             <br />
-            <img src="\Pictures\photo-1511871893393-82e9c16b81e3.jpg" alt="Logotyper" class="d-block w-100">
+            <a asp-controller="Services" asp-action="Index"><img src="\Pictures\photo-1511871893393-82e9c16b81e3.jpg" alt="Logotyper" class="d-block w-100"></a>
                 <p style="text-align:center;">Bokningssystem</p>
         </div>
         <div class="carousel-item">
             <br />
-            <img src="\Pictures\photo-1566207474742-de921626ad0c.jpg" alt="Test" class="d-block w-100">
+            <a asp-controller="Services" asp-action="Index"> <img src="\Pictures\photo-1566207474742-de921626ad0c.jpg" alt="Test" class="d-block w-100"></a>
                 <p style="text-align:center;">Utvecklande av WordPress-plugins</p>
         </div>
     </div>
